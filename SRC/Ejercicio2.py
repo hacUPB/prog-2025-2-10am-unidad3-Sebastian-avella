@@ -1,5 +1,5 @@
 #determinar su número es par o impar
-numero = int(input("Ingrese un numero entero: "))
+numero = int(input("Ingrese un numero entero: 3"))
 residuo = numero % 2
 #si residuo es 0, es par
 if residuo == 0:
