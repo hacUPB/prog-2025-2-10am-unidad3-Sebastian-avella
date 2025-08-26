@@ -5,4 +5,6 @@
 numero = int(input("Ingresar numero entero"))
 residuo = (numero % 3)
 if residuo == 0:
-    print(numero, "es divisible por 3")
+    print(f"{numero} es divisible por 3")
+
+#Condicional doble:
