@@ -10,12 +10,13 @@ elif num == 1:
     print("Serie de Fibonacci:")
     print(0)
 else:
-    a, b = 0, 1
+    a = 0
+    b = 1
+    contador = 2
     print("Serie de Fibonacci:")
     print(a)
     print(b)
  
-    contador = 2
     while contador < num:
         siguiente = a + b
         print(siguiente)
