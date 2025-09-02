@@ -2,6 +2,8 @@
 for cont in range(1, 20, 3):
     print(cont)
 '''
+
+'''
 # Escribe un programa que solicite al usuario ingresar un número entero positivo n. Luego, 
 # utiliza un bucle for con la función range() para calcular la suma de todos los números pares desde 1 hasta n.
 # Finalmente, muestra el resultado de la suma en pantalla.
@@ -17,4 +19,10 @@ for cont in range (1, n + 1):
     if cont % 2 == 0:
         acum += cont #acum = acum + cont
 print(f"la suma de los pares:{acum}")
+'''
 
+mensaje = "UPB"
+Numero = int(input("ingrese el numero de veces a repetir"))
+# imprimir el mensaje un numero de veces
+for i in range(Numero):
+    print(mensaje)
