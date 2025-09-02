@@ -25,4 +25,4 @@ mensaje = "UPB"
 Numero = int(input("ingrese el numero de veces a repetir"))
 # imprimir el mensaje un numero de veces
 for i in range(Numero):
-    print(mensaje)
+    print(f"{i+1}. {mensaje}")
