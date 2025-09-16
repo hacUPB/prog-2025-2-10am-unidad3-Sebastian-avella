@@ -8,7 +8,7 @@ mod_funciones.fibonacci(variable)
 multiplicando = int(input("Ingrese el número entero: "))
 mod_funciones.tabla(multiplicando)
 '''
-from mod_funciones import *
+from modulos.mod_funciones import *
 
 def main():
     while True:
